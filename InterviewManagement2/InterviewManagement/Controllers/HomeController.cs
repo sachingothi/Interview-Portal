@@ -9,6 +9,7 @@ namespace InterviewManagement.Controllers
 {
     public class HomeController : Controller
     {
+        //Index
         public ActionResult Index()
         {
             InterviewMethod db = new InterviewMethod();
